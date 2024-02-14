@@ -1,10 +1,13 @@
-import { useState } from 'react'
+
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return <h1>Book it!</h1>
+  return (
+      <div>
+        <h1>MyBook it Application!</h1>
+        <p>Final project for August bootcamp!</p>
+      </div>
+  )
 }
 
 export default App
