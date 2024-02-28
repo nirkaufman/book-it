@@ -1,8 +1,11 @@
+import {useTranslation} from "react-i18next";
+
 function App() {
+  const { t } = useTranslation();
+
   return (
-      <div>
-        <h1>MyBook it Application!</h1>
-        <h2>Some changes</h2>
+      <div className='container'>
+        <h1>{t('Welcome to bookit')}</h1>
       </div>
   )
 }
