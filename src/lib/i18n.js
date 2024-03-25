@@ -6,7 +6,7 @@ const lang = i18n
     .use(Backend)
     .use(initReactI18next)
     .init({
-      lng: "en",
+      lng: "he",
       fallbackLng: "he",
     });
 
